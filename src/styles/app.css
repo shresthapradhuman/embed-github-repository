@@ -1,0 +1,74 @@
+.git-box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-preferred-size: 24.8%;
+      flex-basis: 24.8%;
+  background-color: #546e7a;
+  margin-left: 0.23rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .git-box {
+    -ms-flex-preferred-size: 33%;
+        flex-basis: 33%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .git-box {
+    -ms-flex-preferred-size: 48%;
+        flex-basis: 48%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .git-box {
+    -ms-flex-preferred-size: 98%;
+        flex-basis: 98%;
+  }
+}
+
+.git-title, .git-content, .git-lang {
+  padding-left: 0.9rem;
+}
+
+.git-title {
+  color: #fff;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+.git-content {
+  color: #fff;
+  font-size: medium;
+  line-height: 1.51;
+  height: 150px;
+}
+
+.git-link {
+  text-decoration: none;
+}
+
+.git-lang {
+  color: #f5d1a3;
+  display: block;
+  font-weight: normal;
+  text-align: right;
+  margin: 0;
+  padding: 0.9rem 0.5rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+/*# sourceMappingURL=app.css.map */
